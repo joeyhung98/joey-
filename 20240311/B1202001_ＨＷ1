@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KteZ_ujbfmtb",
+        "outputId": "7c1c0a6d-bb7f-47e4-e1ed-e32d203a7fb9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "i'm a student\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"i'm a student\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "    x1 = float(input(\"x1：\"))\n",
+        "    y1 = float(input(\"y1：\"))\n",
+        "    x2 = float(input(\"x2：\"))\n",
+        "    y2 = float(input(\"y2：\"))\n",
+        "\n",
+        "    distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5\n",
+        "\n",
+        "    print(\"兩點之間的距離是：\", distance)\n",
+        "\n",
+        "\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yXvNl0Wxf77e",
+        "outputId": "8df02a46-a3d6-4d05-d630-b04a996aaf45"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x1：2\n",
+            "y1：3\n",
+            "x2：3\n",
+            "y2：4\n",
+            "兩點之間的距離是： 1.4142135623730951\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "height = float(input(\"身高（公分）：\"))\n",
+        "weight = float(input(\"體重（公斤）：\"))\n",
+        "\n",
+        "bmi = weight / ( (height/100) ** 2)\n",
+        "\n",
+        "print(\"BMI：\", bmi)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kkz5A2cAiPre",
+        "outputId": "bba03205-372c-4537-bec0-fb474183b55c"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "身高（公分）：179.5\n",
+            "體重（公斤）：80\n",
+            "BMI： 24.829105919414033\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
