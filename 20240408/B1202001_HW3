@@ -1,0 +1,53 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PipNX4-f4Ows",
+        "outputId": "041a12a4-4de7-44ca-956b-9990dbb031c1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "年份9087\n",
+            "平年\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=int(input('年份'))\n",
+        "if a<=1582:\n",
+        "   if a%4==0:\n",
+        "    print('閏年')\n",
+        "   else:\n",
+        "    print('平年')\n",
+        "elif a>1582:\n",
+        "  if a%4==0 and a%100!=0 or a%400==0:\n",
+        "    print('閏年')\n",
+        "  else:\n",
+        "    print('平年')\n",
+        ""
+      ]
+    }
+  ]
+}
